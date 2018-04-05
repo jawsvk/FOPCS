@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA185DCD-3CFB-46D3-AEA8-C252399BA595}</ProjectGuid>
+    <ProjectGuid>{A4CE9EB8-F436-4712-9BCF-F7DD45BF9123}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdditionalQ</RootNamespace>
-    <AssemblyName>AdditionalQ</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,8 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>ConsoleApp1.Password</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,23 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2DArray.cs" />
-    <Compile Include="3D_Array.cs" />
-    <Compile Include="AddQ1.cs" />
-    <Compile Include="AlternatingNum.cs" />
-    <Compile Include="ArraySearchSort.cs" />
-    <Compile Include="DiceTill1and2.cs" />
-    <Compile Include="DiceTill2DiceSame.cs" />
-    <Compile Include="DiceTill2NumSame.cs" />
-    <Compile Include="DiceTill3NumSame.cs" />
-    <Compile Include="DiceTill6.cs" />
-    <Compile Include="FibonacciNum.cs" />
+    <Compile Include="AssignMinMax.cs" />
+    <Compile Include="Password.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q8.cs" />
-    <Compile Include="ReverseTriangle.cs" />
-    <Compile Include="Triangle C.cs" />
-    <Compile Include="TriangleA.cs" />
-    <Compile Include="TriangleB.cs" />
+    <Compile Include="ResizeArray.cs" />
+    <Compile Include="TriangleMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

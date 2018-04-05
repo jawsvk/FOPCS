@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace AdditionalQ
 {
-    class Program
+    class AddQ1
     {
         static void Main(string[] args)
         {
+
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 2 != 0) Console.Write(i + " ");
+            }
+            Console.WriteLine();    
+
         }
     }
 }
